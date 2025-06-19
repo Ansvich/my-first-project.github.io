@@ -1,0 +1,269 @@
+@media (max-width: 767px){
+    .centr{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+.header{
+    padding-top: 32px;
+    border-bottom: none;
+
+
+&__input{
+        display: none;
+    }
+}
+    .menu{
+        display: none;
+
+      &-mob{
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+      }  
+    }
+    .logo__img{
+        width: 99px;
+    }
+
+    .title{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 59px;
+        text-align: center;
+    }
+.top__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .top__text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+    }
+.link{
+    font-size: 14px;
+}
+
+
+
+.for-box{
+    padding-top: 32px;
+
+&__title{
+        font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+    }
+}
+
+.for{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+
+    &__item{
+        grid-column: 1 / -1;
+        height: 375px;
+        font-size: 28px;
+        line-height: 34px;
+
+       &_big{
+        height: 244px;
+       } 
+    }
+}
+
+.special-section{
+    margin-top: 32px;
+    margin-bottom: 36px;
+
+
+    &__title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+   }
+.special-ptoduct{
+    &__name{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__prise{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__prise_sale{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.catalog{
+    margin-bottom: 0px;
+
+    &__title{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    &__linkblock{
+        margin-bottom: 32px;
+    }
+}
+
+.footer{
+    
+    padding-bottom: 32px;
+    &__content{
+    justify-content: center;
+    gap: 70px;
+}
+}
+
+.top-catalog{
+    &__title{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    text-align: center;
+    margin-top: 82px;
+    margin-bottom: 170px;
+    }
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 32px;
+    row-gap: 14px;
+    }
+
+ .options{
+    display: flex;
+    flex-direction: column-reverse;
+    
+
+.filtering-form{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 190.5px;
+    height: auto;
+    left: 0px;
+    gap: 32px;
+
+    &__conteiner{
+       display: flex;
+       flex-wrap: nowrap;
+       height: auto;
+       width: 190px;
+    max-height: fit-content;
+    min-width: fit-content;
+    }
+
+    &__button{
+        align-self: center;
+    }
+}
+
+ }
+ .catalog{
+    &__list{
+        row-gap: 32px;
+    }  
+    
+    &__article{
+        width: 100%;
+ } 
+    &__name{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+ }
+ &__content{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+ }
+ &__price{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+ }
+}
+
+.heading-big{
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: 82px;
+    margin-bottom: 170px;
+}
+
+.top-cart{
+    background-image: url("img/img.cart-mobile.png");
+    background-position: right;
+}
+.cart{
+
+&__form{
+    width: 343px;
+    height: 556px;
+}
+ &__box-name{
+    display: none;
+}
+ &__box-number{
+    display: none;
+
+}
+&__input-box{
+    width: auto;
+}
+&__img{
+    display: none;
+}
+&__name{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+&__text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+&__price{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    }
+    &__price_big{
+        font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+
+    }
+
+&__button{
+    width: 163px;
+    height: 37px;
+    font-size: 12px;
+}
+&__btn-box{
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+
+}

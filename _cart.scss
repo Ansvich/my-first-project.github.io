@@ -1,0 +1,245 @@
+.top-cart {
+    height: 400px;
+    background-image: url(img/topcart.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading-big {
+color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 64px;
+font-weight: 600;
+line-height: 70px;
+text-align: left;
+margin-top: 127px;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    margin-top: 64px;
+
+&__name-box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;    
+}
+
+&__box-number {
+    padding-right: 30px;
+}
+
+&__item {
+    border-top: 0.5px solid rgb(202, 205, 216);
+    padding-top: 25px;
+    padding-bottom: 32px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+&__input {
+    width: 71px;
+    height: 51px;
+    border-radius: 6px;
+    border: none;
+    background: rgb(247, 246, 246);
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 210%;
+    letter-spacing: 0px;
+}
+
+&__left {
+    display: flex;
+    gap: 32px;
+    }
+
+&__info {
+    width: 276px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+&__name {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+
+}
+
+&__text {
+    color: rgb(136, 136, 136);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
+&__price {
+    color: rgb(5, 5, 5);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+&__link-box {
+    display: flex;
+    gap: 30px;
+}
+
+&__link {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 210%;
+    text-align: center;
+    text-decoration-line: underline;
+}
+&__form { 
+    border-radius: 20px;
+    background: rgb(247, 246, 246);
+    height: 556px;
+    grid-column: span 4;
+}
+
+&__form-title {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 42px;
+}
+
+&__input-box {
+    width: 288px;
+    height: 143px;
+    display: flex;
+    padding-left: 27px;
+    padding-right: 64px;
+    flex-direction: column;
+    gap: 44px;
+
+}
+
+&__input-item {
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    background: none;
+    width: 288px;
+    border: none;
+    border-bottom: 1px solid rgb(202, 205, 216);
+
+    &::placeholder {
+        color: black;
+}
+}
+ 
+&__form-ptice-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    gap: 5px;
+
+}
+
+&__form-label {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+
+}
+&__price_big {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    
+}
+
+
+&__content {
+    grid-column: span 8;
+}
+
+&__btn-box {
+    padding-top: 18px;
+}
+
+&__button {
+    color: rgb(2, 2, 2);
+    font-family: Montserrat;
+    background: none;
+    width: 200px;
+    height: 37px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+&__button:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+&__form-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+}
+&__form-button-click {
+    width: 290px;
+    height: 41px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 4);
+    border-radius: 20px;
+    background: none;
+
+}
+
+}
+
+.special-ptoduct-link {
+    margin-top: 33px;
+}
+.special-ptoduct-reference{
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #000;
+}
+
